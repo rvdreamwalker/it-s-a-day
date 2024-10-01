@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Dev!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #282c34;
+            color: #61dafb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #20232a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            max-width: 600px;
+        }
+        h1 {
+            color: #61dafb;
+            font-size: 3em;
+        }
+        p {
+            color: #abb2bf;
+        }
+        .code {
+            background-color: #282c34;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #98c379;
+        }
+        .highlight {
+            color: #e06c75;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #61dafb;
+            border: none;
+            border-radius: 5px;
+            color: #282c34;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #21a1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, <span class="highlight">Artee-The Developer</span>!</h1>
+        <p>May your code always compile and your coffee cup never be empty!</p>
+        <div class="code">
+            <p>// Special Day</p>
+            <p>Birthday celebrate(<span class="highlight">birthday</span>) {</p>
+            <p style="margin-left: 20px;">if (<span class="highlight">birthday</span> === <span class="highlight">today</span>) {</p>
+            <p style="margin-left: 40px;">return "🎂 Eat cake, deploy joy! 🎉";</p>
+            <p style="margin-left: 20px;">} else {</p>
+            <p style="margin-left: 40px;">return "💻 Keep coding!";</p>
+            <p style="margin-left: 20px;">}</p>
+            <p>}</p>
+        </div>
+        <button onclick="alert('🎈 Dear Artee! Happy Birthday Developer! May all your bugs be minor and your releases smooth! 🎉')">Click for a Surprise 🎁</button>
+    </div>
+
+    <script>
+        document.querySelector('button').addEventListener('click', function() {
+            console.log('🎂 Debugging Birthday Happiness! 🎈');
+        });
+    </script>
+</body>
+</html>
